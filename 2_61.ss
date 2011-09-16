@@ -1,0 +1,21 @@
+;sets of numbers *only*
+(define (element-of-set? x set)
+  (cond ((null? set) false)
+        ((> (car set) x) false)
+        ((= x (car set)) true)
+        (else (element-of-set? x (cdr set)))))
+
+(define (adjoin-set x set)
+  (cond ((null? set) (list x))
+        ((< x (car set)) (cons x set))
+        ((= x (car set)) set)
+        (else (cons (car set) (adjoin-set x (cdr set))))))
+
+;(adjoin-set 1 (list 2 3 4))
+;(1 2 3 4)
+;(adjoin-set 5 (list 2 3 4))
+;(2 3 4 5)
+;(adjoin-set 3 (list 2 3 4))
+;(2 3 4 5)
+;(adjoin-set 6 (list 2 3 8))
+;(2 3 6 8)
