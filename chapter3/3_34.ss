@@ -1,0 +1,1 @@
+;The problem is that, if we only set the terminal b, the multiplier will not set a because it can't calculate it. It is a one-directional system.

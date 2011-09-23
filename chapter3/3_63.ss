@@ -1,0 +1,1 @@
+;Alyssa is right insofar sqrt-stream performs a recursive call, which is not dealt with by memo-proc.
