@@ -1,1 +1,0 @@
-;(define W1 (make-withdraw 100)) creates an environment E2 containing a binding for balance set to 100, whose enclosing environemnt is E1 with initial-amount set to 100

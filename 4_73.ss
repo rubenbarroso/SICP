@@ -1,1 +1,0 @@
-;The problem is that is the stream argument is infinite, (flatten-stream stream) would fall into an infinite loop.

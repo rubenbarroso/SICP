@@ -1,1 +1,0 @@
-;Loius's version causes an infinite loop because there is no delayed evaluation of the recursive call (using the cons-stream left out)

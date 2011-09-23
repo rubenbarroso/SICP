@@ -1,1 +1,0 @@
-; see yellow pad
